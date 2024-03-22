@@ -1,0 +1,27 @@
+2024-03-15T16:04:47+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_65f4719ef3c0bhttpla-vie-des-planteslocalwp-admin","smb_name":"PROD","redirect_url":"http:\/\/la-vie-des-plantes.local\/wp-admin\/"}
+ ajax: no
+2024-03-15T16:04:47+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240315160446B7835C2EA92CE5685AAF,20240315160446B7835C2EA92CE5685AAF
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=121
+x-tt-trace-host: 0106a865114cf83a5cd6f839e7ec930d868a9f844ee8ba9197966d0af59ea2e9ae3fed134e777e502a647393a0f0e11bff14fea1a572744f97325a3c1610a5b9ad74f0c8ac79b5ed72028dc0e16c0bc03e6fb82d29ae41eda16ccdbe57e913f8b5
+x-tt-trace-id: 00-240315160446B7835C2EA92CE5685AAF-738584D80CBACAAB-00
+Server: TLB
+Content-Encoding: gzip
+Date: Fri, 15 Mar 2024 16:04:47 GMT
+Content-Length: 208
+X-Cache: TCP_MISS from a23-34-62-31.deploy.akamaitechnologies.com (AkamaiGHost/11.4.3-54726453) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=5, origin; dur=282
+X-Origin-Response-Time: 283,23.34.62.31
+X-Akamai-Request-ID: b6bb28b
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/la-vie-des-plantes.local\/wp-admin\/","external_data_key":"dc270dc1-38a8-4fb9-b83a-7091658f2301","app_id":"7346621820260319233","app_secret":"9438b1236a0ad673efd28f778e2d29fee4e00fea"}}
+
